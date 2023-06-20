@@ -21,7 +21,7 @@ def test_main_1():
     print(res.group())
 
     res = re.search(r'[\w,\W]*Python[\w,\W]*', lines[1])
-    assert res != None
+    assert res is not None
     print(res.group())
 
     res = re.search(r'[\w,\W]*Programming[\w,\W]*Python[\w,\W]*', lines[2])
