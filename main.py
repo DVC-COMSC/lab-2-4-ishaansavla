@@ -4,8 +4,9 @@ def main():
     sub2 = original_str[7:19]
 
     merged_str = sub2 + " " + sub1
-    print(sub1)
+    
     print(sub2)
+    print(sub1)
     print(merged_str)
     ##################################################
     # Comlete your code here
